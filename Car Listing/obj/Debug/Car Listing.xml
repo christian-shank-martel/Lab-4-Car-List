@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Car Listing
+</name>
+</assembly>
+<members>
+<member name="T:Car_Listing.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Car_Listing.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Car_Listing.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Car_Listing.Car.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ Parameter Constructor, makes new car bassed on parameters passed in
+ </summary>
+</member>
+<member name="P:Car_Listing.Car.ID">
+ <summary>
+ 
+ </summary>
+ <returns>Car identification Number</returns>
+</member>
+<member name="P:Car_Listing.Car.Make">
+ <summary>
+ Get's a car or sets a car Make value
+ </summary>
+ <returns>the car's manufacturer</returns>
+</member>
+<member name="P:Car_Listing.Car.Model">
+ <summary>
+ Get's a car or sets a car Model value
+ </summary>
+ <returns>the car's model</returns>
+</member>
+<member name="P:Car_Listing.Car.Price">
+ <summary>
+ Get's a car or sets a car Make Price
+ </summary>
+ <returns>the car's Price</returns>
+</member>
+<member name="P:Car_Listing.Car.Year">
+ <summary>
+ Get's a car or sets a car Make value
+ </summary>
+ <returns>the car's manufacturer</returns>
+</member>
+<member name="P:Car_Listing.Car.IsNew">
+ <summary>
+ Get's a car or sets a car Make value
+ </summary>
+ <returns>the car's manufacturer</returns>
+</member>
+<member name="M:Car_Listing.Car.GetCarDate">
+ <summary>
+ Returns a String describing the CAr
+ </summary>
+ <returns>A String Describing the Car</returns>
+</member>
+<member name="M:Car_Listing.frmCarListing.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ me close form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Car_Listing.frmCarListing.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the SetDefaults Sub to reset the form to its default state
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Car_Listing.frmCarListing.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Try to add the new car to the list
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Car_Listing.frmCarListing.lvwCarList_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+  this Fires when the user clicks on a car within ther listView
+ </summary>
+</member>
+<member name="M:Car_Listing.frmCarListing.lvwCarList_ItemCheck(System.Object,System.Windows.Forms.ItemCheckEventArgs)">
+ <summary>
+ Stops the user from chekcing or un-checking the Box when the Car is not selected
+ </summary>
+</member>
+<member name="M:Car_Listing.frmCarListing.SetDefaluts">
+ <summary>
+ Resetd the form as well as any required class-level variables to their default state
+ </summary>
+</member>
+<member name="M:Car_Listing.frmCarListing.ValidateInput">
+ <summary>
+ To Check for Valid input
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Car_Listing.frmCarListing.PopulateList">
+ <summary>
+ Clears and re-populates the listview Controls
+ </summary>
+</member>
+</members>
+</doc>
